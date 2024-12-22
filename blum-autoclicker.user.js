@@ -21,12 +21,12 @@ let GAME_SETTINGS = {
 	flowerSkipPercentage: Math.floor(Math.random() * 6) + 15,
 	minDelayMs: 500,
 	maxDelayMs: 999,
-	autoClickPlay: false,
+	autoClickPlay: true,
 	dogsProbability: (98 + Math.random()) / 100,
-	checkForUpdates: true,
-	autoVideoTask: true,
+	checkForUpdates: false,
+	autoVideoTask: false,
 	autoVerifyCode: false,
-	autoClaimTask: true,
+	autoClaimTask: false,
 };
 
 const answers = {
