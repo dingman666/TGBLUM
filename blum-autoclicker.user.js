@@ -21,7 +21,7 @@ let GAME_SETTINGS = {
 	flowerSkipPercentage: Math.floor(Math.random() * 6) + 10,
 	minDelayMs: 500,
 	maxDelayMs: 999,
-	autoClickPlay: true,
+	autoClickPlay: false,
 	dogsProbability: (98 + Math.random()) / 100,
 	checkForUpdates: false,
 	autoVideoTask: false,
